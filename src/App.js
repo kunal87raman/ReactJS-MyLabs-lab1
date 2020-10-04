@@ -1,24 +1,13 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
+  const title = 'CourseCube';
+  const trainer="Srinivas Dande Sir";
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="myclass">
+      <h2>Welcome to {title} !!!</h2>
+      <h3>You are learning ReactJS 16 from {trainer} !!!</h3>
     </div>
   );
 }
